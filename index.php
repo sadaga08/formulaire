@@ -13,19 +13,19 @@
             <label for="label">se connecter</label>
         </div>
         <div class="firstName">
-            <label for="firstName" id="nom1">Nom</label>
+            <label for="firstName" id="nom1">Nom*</label>
             <input type="text" name="Nom" required="true" placeholder="saisir votre Nom" id="nom2">
         </div>
         <div class="lastName">
-            <label for="lastName" id="prenom1">Prénom</label>
+            <label for="lastName" id="prenom1">Prénom*</label>
             <input type="text" name="prenom" required="true" placeholder="saisir votre prénom" id="prenom2">
         </div>
         <div class="email">
-            <label for="email" id="email1">Email</label>
+            <label for="email" id="email1">Email*</label>
             <input type="text" name="email" required="true" placeholder="saisir votre email" id="email2">
         </div>
         <div class="mobile">
-            <label for="mobile" id="mobile1">Mobile</label>
+            <label for="mobile" id="mobile1">Mobile*</label>
             <input type="text" name="mobile" required="true" placeholder="saisir votre numéro mobile" id="mobile2">
         </div>
         <div class="genre">

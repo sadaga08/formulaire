@@ -46,7 +46,7 @@ try {
         // Exécution de la requête
         $requete->execute();
         echo "Données insérées avec succès.";
-        // selectionner les identifiants de nos utilisateurs avec la commande sélect
+        //selectionner les identifiants de nos utilisateurs avec la commande sélect
         $requete = $connexion->prepare("SELECT * FROM Visiteurs WHERE Nom = :nom AND Prenom = :prenom 
         AND email = :email AND mobile = :mobile");
         // Exécution de la requête sous forme de trableau array
